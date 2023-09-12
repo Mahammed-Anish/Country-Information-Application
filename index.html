@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Country Information App</title>
+        <!-- to set favicon to webpage -->
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+        <!-- end of favicon -->
+    </head>
+    <body>
+        <div class="country-container">
+
+            <h1 style="text-align: center;">Country Information App</h1>
+            <div class="search flex">
+                <input type="text" id="text" placeholder="Enter country name">
+                <button class="btn" id="btn">Search</button>
+            </div>
+
+            <!-- If Country Name is Invalid -->
+            <p id="icname">common name : India</p>
+
+            <div class="country-info">
+                <!-- flag -->
+                <img src="" alt="flag" id="flag" width="150rem" height="100rem">
+
+                <!-- common name, official name, capital city -->
+                <p id="cname">common name : India</p>
+
+                <!-- <p>official name : India</p> -->
+                <p id="capital">capital city : Delhi</p>
+
+                <!-- Curency -->
+                <p id="currency">currency</p>
+
+                <!-- population -->
+                <p id="population">population</p>
+
+                <!-- start of week -->
+                <p id="week">start of week</p>
+
+                <!-- google map -->
+                <p class="glg"><a href="" id="google" class="google" target="_blank">Google Map View</a></p>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

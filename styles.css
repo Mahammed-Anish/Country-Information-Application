@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.country-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    min-width: 30vw;
+    max-width: 80vw;
+    min-height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.country-info {
+    margin-top: 20px;
+    margin-left: 2rem;
+    text-align: left;
+    display: none;
+}
+
+.country-info img {
+    margin-left: 0rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.search input {
+    height: 20px;
+    width: 80rem;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(219, 231, 252);
+}
+
+.search button {
+    width: 10rem;
+    height: 28px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(28, 107, 234);
+}
+
+#icname {
+    display: none;
+}
+
+.glg {
+    margin-top: 30px;
+}
+
+.google{
+    text-decoration: none;
+    padding:.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: #fff;
+    background-color: rgb(28, 107, 234);
+}
+
+.google:hover {
+    background-color: rgb(18, 61, 116);
+}
